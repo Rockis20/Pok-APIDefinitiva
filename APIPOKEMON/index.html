@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <img src="./img/pokemon-logo-text-png-7.png" alt="">
+    <div class="container">
+        <div class="input-group">
+            <label for="nom1">Buscar Pokémon:</label>
+            <input type="text" id="nom1" placeholder="Nombre del Pokémon....">
+            <button id="button">BUSCAR</button>
+        </div>
+        
+        <div class="input-group">
+            <label for="gibet"> Tipos:</label>
+            <select id="gibet">
+                <option value="fire">Fuego</option>
+                <option value="water">Agua</option>
+                <option value="grass">Planta</option>
+                <option value="electric">Eléctrico</option>
+                <option value="rock">Roca</option>
+                <option value="flying">Aire</option>
+                <option value="bug">Bicho</option>
+                <option value="dark">Oscuro</option>
+                <option value="dragon">Dragón</option>
+                <option value="fairy">Hada</option>
+                <option value="fighting">Lucha</option>
+                <option value="ghost">Fantasma</option>
+                <option value="ground">Tierra</option>
+                <option value="ice">Hielo</option>
+                <option value="normal">Normal</option>
+                <option value="poison">Veneno</option>
+                <option value="psychic">Psíquico</option>
+                <option value="steel">Acero</option>
+            </select>
+            <button id="tipo">Tipos</button>
+        </div>
+
+        <div class="input-group">
+            <label for="pesito"> Peso (kg):</label>
+            <input type="number" id="pesito" placeholder="Buscador de pesos....">
+            <button id="pes">Peso</button>
+        </div>
+
+        <button id="tots">Todos Pokémon</button>
+    </div>
+
+    <div id="resultat" class="result-container">
+    </div>
+
+    <script src="./scrypt.js"></script>
+</body>
+</html>
